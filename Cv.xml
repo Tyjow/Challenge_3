@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE Cv SYSTEM "Cv.dtd">
+
+<Cv>
+<Personne sexe="masculin">
+	<image source="Images/photo.jpg"></image>
+	<nom></nom>
+	<prenom></prenom>
+	<age></age>
+	<date_de_naissance></date_de_naissance>
+	<adresse></adresse>
+	<telephone></telephone>
+	<mail></mail>
+	<permis></permis>
+</Personne>
+
+<experience>
+	<date></date>
+	<poste>
+		<entreprise></entreprise>
+		<lieu></lieu>
+		<descriptif></descriptif>
+	</poste>
+</experience>
+
+<formation>
+	<date></date>
+	<intitule></intitule>
+	<organisme></organisme>
+	<lieu></lieu>
+	<niveau></niveau>
+</formation>
+
+<competence>
+	<langage></langage>
+	<niveau></niveau>
+</competence>
+
+</Cv>

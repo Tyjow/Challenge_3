@@ -1,0 +1,26 @@
+<!ELEMENT Cv (Personne, experience*, formation*, competence*, divers)>
+<!ELEMENT Personne (image?, nom, prenom, age, date_de_naissance, adresse, telephone, mail, permis?)>
+<!ATTLIST Personne sexe (masculin | féminin) mode>
+<!ELEMENT image EMPTY>
+<!ATTLIST image source CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT date_de_naissance (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT permis (#PCDATA)>
+<!ELEMENT experience (date, poste*)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT poste (entreprise, lieu, descriptif)>
+<!ELEMENT entreprise (#PCDATA)>
+<!ELEMENT lieu (#PCDATA)>
+<!ELEMENT descriptif (#PCDATA)>
+<!ELEMENT formation (date, intitule, organisme, lieu, niveau)>
+<!ELEMENT intitule (#PCDATA)>
+<!ELEMENT organisme (#PCDATA)>
+<!ELEMENT niveau (#PCDATA)>
+<!ELEMENT competence (langage*, niveau)>
+<!ELEMENT langage (#PCDATA)>
+]>
