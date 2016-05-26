@@ -37,4 +37,9 @@
 	<niveau></niveau>
 </competence>
 
+<divers>
+	<langue></langue>
+	<loisirs></loisirs>
+</divers>
+
 </Cv>

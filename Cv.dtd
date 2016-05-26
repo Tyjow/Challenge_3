@@ -23,4 +23,7 @@
 <!ELEMENT niveau (#PCDATA)>
 <!ELEMENT competence (langage*, niveau)>
 <!ELEMENT langage (#PCDATA)>
+<!ELEMENT divers (langue*, loisirs*)>
+<!ELEMENT langue (#PCDATA)>
+<!ELEMENT loisirs (#PCDATA)>
 ]>
