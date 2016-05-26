@@ -4,13 +4,29 @@
 
 <Cv>
 <Personne sexe="masculin">
-	<nom>Nom : PLATON</nom>
-	<prenom>Jonathan</prenom>
-	<age>28</age>
-	<date_de_naissance>21/08/1987</date_de_naissance>
-	<adresse>10 Square Docteur Fernand Jacques</adresse>
-	<telephone>07.68.84.40.24</telephone>
-	<mail>platon.jonathan@gmail.com</mail>
+	<section>
+		<identite>
+			<nom>Nom : PLATON</nom>
+		</identite>
+		<identite>
+			<prenom>Prenom : Jonathan</prenom>
+		</identite>
+		<identite>
+			<age>Age : 28 ans</age>
+		</identite>
+		<identite>
+			<date_de_naissance>Né le 21/08/1987</date_de_naissance>
+		</identite>
+		<identite>
+			<adresse>10 Square Docteur Fernand Jacques, 35200 Rennes</adresse>
+		</identite>
+		<identite>
+			<telephone>Tel : 07.68.84.40.24</telephone>
+		</identite>
+		<identite>
+			<mail>Mail : platon.jonathan@gmail.com</mail>
+		</identite>
+	</section>
 </Personne>
 
 <experience>

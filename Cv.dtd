@@ -1,8 +1,9 @@
 <!ELEMENT Cv (Personne, experience*, formation*, competence*, divers)>
-<!ELEMENT Personne (image?, nom, prenom, age, date_de_naissance, adresse, telephone, mail, permis?)>
+<!ELEMENT Personne (identite*, image?, section*)>
 <!ATTLIST Personne sexe (masculin|feminin) "masculin">
-<!ELEMENT image EMPTY>
-<!ATTLIST image source CDATA #REQUIRED>
+<!ELEMENT identite (nom, prenom, age, date_de_naissance, adresse, telephone, mail, permis?, section*)
+<!ELEMENT section ANY>
+<!ELEMENT image ANY>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT prenom (#PCDATA)>
 <!ELEMENT age (#PCDATA)>
