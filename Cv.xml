@@ -4,15 +4,13 @@
 
 <Cv>
 <Personne sexe="masculin">
-	<image source="Images/photo.jpg"></image>
-	<nom></nom>
-	<prenom></prenom>
-	<age></age>
-	<date_de_naissance></date_de_naissance>
-	<adresse></adresse>
-	<telephone></telephone>
-	<mail></mail>
-	<permis></permis>
+	<nom>Nom : PLATON</nom>
+	<prenom>Jonathan</prenom>
+	<age>28</age>
+	<date_de_naissance>21/08/1987</date_de_naissance>
+	<adresse>10 Square Docteur Fernand Jacques</adresse>
+	<telephone>07.68.84.40.24</telephone>
+	<mail>platon.jonathan@gmail.com</mail>
 </Personne>
 
 <experience>
