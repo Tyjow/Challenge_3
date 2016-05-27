@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Raleway"?>
 <!DOCTYPE Cv SYSTEM "Cv.dtd">
 
 <Cv>
@@ -42,19 +43,19 @@
 		<poste>
 			<date>Année : 2008</date>
 			<entreprise>Actual Computer</entreprise>
-			<lieu>Rennes</lieu>
+			<lieu>Ville : Rennes</lieu>
 			<descriptif>Montage de pc</descriptif>
 		</poste>
 		<poste>
 			<date>Année : 2009</date>
 			<entreprise>Blabla blablablar</entreprise>
-			<lieu>Rennes</lieu>
+			<lieu>Ville : Rennes</lieu>
 			<descriptif>blabla bla blabla</descriptif>
 		</poste>
 		<poste>
 			<date>Année : 2010</date>
 			<entreprise>Blabla blablablar</entreprise>
-			<lieu>Rennes</lieu>
+			<lieu>Ville : Rennes</lieu>
 			<descriptif>blabla bla blabla blablablabla blablabla</descriptif>
 		</poste>
 </experience>
@@ -63,7 +64,7 @@
 	<section>
 		<p>+ Formation</p>
 	</section>
-		<date>2008</date>
+		<date>Année : 2008</date>
 		<intitule>Nom : Code Academie</intitule>
 		<organisme>Organisme : Face</organisme>
 		<lieu>Ville : Rennes</lieu>
@@ -74,8 +75,14 @@
 	<section>
 		<p>+ Compétences</p>
 	</section>
-		<langage>HTML/CSS | JS | PHP etc..</langage>
-		<niveau>4 | 2 | 3 etc..</niveau>
+	<section>
+		<langage>HTML HTML5/ CSS CSS3</langage>
+		<niveau>Intermédiaire</niveau>
+		<langage>JS</langage>
+		<niveau>Débutant</niveau>
+		<langage>PHP</langage>
+		<niveau>Débutant</niveau>
+	</section>
 </competence>
 
 <divers>
