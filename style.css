@@ -7,7 +7,7 @@ margin: auto;
 Personne {
 display: block;
 width: 75%;
-height: 70%;
+height: 100%;
 margin: auto;
 }
 
@@ -17,10 +17,105 @@ content: " (" attr(sexe) ")";
 
 identite {
 display: block;
-width: 30%;
 margin: 0 0 2% 0;
 }
 
 section {
+display: block;
 width: 30%;
+height: 30%;
+}
+
+section:nth-child(1) {
+width: 75%;
+margin: auto;
+}
+
+section:nth-child(2) {
+background-color: blue;
+}
+
+section:nth-child(3) {
+background-color: red;
+float: right;
+}
+
+
+Personne section p:nth-child(1) {
+font-size: 40px;
+color: green;
+}
+
+experience section p:nth-child(1) {
+font-size: 40px;
+color: purple;
+}
+
+
+experience {
+display: block;
+width: 75%;
+height: 100%;
+margin: auto;
+}
+
+experience date {
+color: red;
+}
+
+poste {
+display: block;
+margin: 0 0 10% 0;
+}
+
+entreprise {
+margin: 0 0 0 10%;
+}
+
+experience lieu {
+margin: 0 0 0 10%;
+}
+
+descriptif {
+margin: 0 0 0 10%;
+}
+
+formation {
+display: block;
+width: 75%;
+height: 100%;
+margin: auto;
+}
+
+formation section p:nth-child(1) {
+font-size: 40px;
+color: brown;
+}
+
+formation date {
+color: blue;
+}
+
+competence {
+display: block;
+width: 75%;
+height: 100%;
+margin: auto;
+}
+
+competence section p:nth-child(1) {
+font-size: 40px;
+color: orange;
+}
+
+divers {
+display: block;
+width: 75%;
+height: 50%;
+margin: auto;
+}
+
+divers section p:nth-child(1) {
+font-size: 40px;
+color: grey;
 }
