@@ -5,6 +5,9 @@
 <Cv>
 <Personne sexe="masculin">
 	<section>
+		<p>+ A propos</p>
+	</section>
+	<section>
 		<identite>
 			<nom>Nom : PLATON</nom>
 		</identite>
@@ -17,6 +20,8 @@
 		<identite>
 			<date_de_naissance>Né le 21/08/1987</date_de_naissance>
 		</identite>
+	</section>
+	<section>
 		<identite>
 			<adresse>10 Square Docteur Fernand Jacques, 35200 Rennes</adresse>
 		</identite>
@@ -27,33 +32,58 @@
 			<mail>Mail : platon.jonathan@gmail.com</mail>
 		</identite>
 	</section>
+	<section></section>
 </Personne>
 
 <experience>
-	<date></date>
-	<poste>
-		<entreprise></entreprise>
-		<lieu></lieu>
-		<descriptif></descriptif>
-	</poste>
+	<section>
+		<p>+ Expérience Professionelle</p>
+	</section>
+		<poste>
+			<date>Année : 2008</date>
+			<entreprise>Actual Computer</entreprise>
+			<lieu>Rennes</lieu>
+			<descriptif>Montage de pc</descriptif>
+		</poste>
+		<poste>
+			<date>Année : 2009</date>
+			<entreprise>Blabla blablablar</entreprise>
+			<lieu>Rennes</lieu>
+			<descriptif>blabla bla blabla</descriptif>
+		</poste>
+		<poste>
+			<date>Année : 2010</date>
+			<entreprise>Blabla blablablar</entreprise>
+			<lieu>Rennes</lieu>
+			<descriptif>blabla bla blabla blablablabla blablabla</descriptif>
+		</poste>
 </experience>
 
 <formation>
-	<date></date>
-	<intitule></intitule>
-	<organisme></organisme>
-	<lieu></lieu>
-	<niveau></niveau>
+	<section>
+		<p>+ Formation</p>
+	</section>
+		<date>2008</date>
+		<intitule>Nom : Code Academie</intitule>
+		<organisme>Organisme : Face</organisme>
+		<lieu>Ville : Rennes</lieu>
+		<niveau>Niveau : Bac+2</niveau>
 </formation>
 
 <competence>
-	<langage></langage>
-	<niveau></niveau>
+	<section>
+		<p>+ Compétences</p>
+	</section>
+		<langage>HTML/CSS | JS | PHP etc..</langage>
+		<niveau>4 | 2 | 3 etc..</niveau>
 </competence>
 
 <divers>
-	<langue></langue>
-	<loisirs></loisirs>
+	<section>
+		<p>+ Divers</p>
+	</section>
+		<langue>Français, anglais etc...</langue>
+		<loisirs>Jeux vidéos, basket etc...</loisirs>
 </divers>
 
 </Cv>
