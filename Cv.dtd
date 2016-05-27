@@ -18,9 +18,9 @@
 		<!ELEMENT mail (#PCDATA)>
 		<!ELEMENT permis (#PCDATA)>
 <!-- EXPERIENCE -->
-<!ELEMENT experience (date, poste*)>
+<!ELEMENT experience (poste*)>
 	<!ELEMENT date (#PCDATA)>
-	<!ELEMENT poste (entreprise, lieu, descriptif)>
+	<!ELEMENT poste (date,entreprise, lieu, descriptif)>
 		<!ELEMENT entreprise (#PCDATA)>
 		<!ELEMENT lieu (#PCDATA)>
 		<!ELEMENT descriptif (#PCDATA)>
