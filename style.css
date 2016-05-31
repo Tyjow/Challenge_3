@@ -15,7 +15,21 @@ display: block;
 width: 75%;
 height: 70%;
 margin: auto;
+background-color: linear-gradient(to bottom right, #19194d, #99ff99);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
 }
+
+@keyframes back {
+0 {background-color: linear-gradient(to bottom right, #19194d, #99ff99);}
+50% {background-color: rgba(25, 25, 77, 0.3);}
+100% {background-color: linear-gradient(to bottom right, #19194d, #99ff99);}
+}
+
+
 
 /*Personne:after {
 content: " (" attr(sexe) ")";
@@ -133,6 +147,12 @@ width: 75%;
 height: 70%;
 margin: auto;
 margin-top: 5%;
+background-color: linear-gradient(to bottom right, #19194d, #99ff99);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
 }
 
 experience date {
@@ -158,6 +178,12 @@ display: block;
 width: 75%;
 height: 70%;
 margin: auto;
+background-color: linear-gradient(to bottom right, #19194d, #99ff99);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
 }
 
 formation section p:nth-child(1) {
@@ -206,6 +232,12 @@ display: block;
 width: 75%;
 height: 70%;
 margin: auto;
+background-color: linear-gradient(to bottom right, #19194d, #99ff99);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
 }
 
 competence section p:nth-child(1) {
@@ -227,7 +259,27 @@ font-weight: 600;
 }
 
 langage:nth-child(1) {
-padding: 5% 0 0 0;
+padding: 5% 0 0 20%;
+}
+
+langage:nth-child(3) {
+padding: 0 0 0 20%;
+}
+
+langage:nth-child(5) {
+padding: 0 0 0 20%;
+}
+
+competence niveau:nth-child(2) {
+padding: 0 0 0 50%;
+}
+
+competence niveau:nth-child(4) {
+padding: 0 0 0 50%;
+}
+
+competence niveau:nth-child(6) {
+padding: 0 0 0 50%;
 }
 
 competence niveau {
