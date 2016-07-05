@@ -26,18 +26,31 @@
                 </header>
 
                 <section class="nav-link">
-                    <div>
-                        <ul class="vertical-list">
-                            <li class="list"><a href="#">Accueil</a></li>
-                            <li class="list"><a href="#">Expériences</a></li>
-                            <li class="list"><a href="#">Formations</a></li>
-                            <li class="list"><a href="#">Compétences</a></li>
-                            <li class="list"><a href="#">Loisirs</a></li>
-                            <li class="list"><a href="#">Contact</a></li>
-                        </ul>
+                    <ul class="vertical-list">
+                        <li class="list"><a href="#">Accueil</a></li>
+                        <li class="list"><a href="#">Expériences</a></li>
+                        <li class="list"><a href="#">Formations</a></li>
+                        <li class="list"><a href="#">Compétences</a></li>
+                        <li class="list"><a href="#">Loisirs</a></li>
+                        <li class="list"><a href="#">Contact</a></li>
+                    </ul>
+                </section>
+
+                <section class="content">
+                    <div class="info">
+                        <div class="photo">
+                            <img src="img/moi.jpg"/>
+                        </div>
+                        <div class="bloc">
+                            <h4>Contact</h4>
+                            <div class="widget-element">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            email</div>
+                        </div>
                     </div>
                 </section>
             </div>
+            <script src="https://use.fontawesome.com/50d70c63af.js"></script>
         </body>
 
     </html>         
