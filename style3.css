@@ -48,7 +48,7 @@ header {
 }
 
 .nav-link {
-	background-color: #47d147;
+	background-color: #50a3d9;
 	padding: 5px 0;
 	color: #fff;
 	margin-bottom: 35px;
@@ -74,7 +74,7 @@ header {
 }
 
 .list a:hover {
-	border-bottom: 5px solid #248f24;
+	border-bottom: 5px solid #236fa0;
 }
 
 .content {
@@ -108,7 +108,7 @@ header {
 }
 
 h3 {
-	color: #47d147;
+	color: #50a3d9;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -127,6 +127,42 @@ h3 {
 	color: #515253;
 	font-size: 14px;
 	font-weight: 300;
+}
+
+#mail-link:hover {
+	background-color: #50a3d9;
+	color: #fff;
+	cursor: pointer;
+}
+
+#bloc-mail {
+	position: absolute;
+	top: 520px;
+	left: -300px;
+	color: #515253;
+	font-size: 14px;
+	background-color: #dededf;
+	font-weight: 300;
+	padding: 12px 10px 12px 10px;
+	transition: all 0.50s;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.50s;
+}
+
+.i-close {
+	background-color: #FF8904;
+	color: #fff;
+	padding: 3px 3px 3px 3px;
+	border-radius: 2px;
+	margin: 0 0 0 23px; 
+	cursor: pointer;
+}
+
+.soc-link:hover {
+	background-color: #50a3d9;
+	color: #fff;
+	cursor: pointer;
 }
 
 .infos-text {
@@ -211,7 +247,7 @@ h5 {
 
 
 .right-content {
-	width: 270px;
+	width: 250px;
 }
 
 .remove {

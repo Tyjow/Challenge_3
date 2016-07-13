@@ -45,9 +45,11 @@
                             </div>
                             <div class="bloc">
                                 <h3>Contact</h3>
-                                <div class="widget-element">
+                                <div class="widget-element" id="mail-link" type="button" onclick="show()">
                                     <i class="fa fa-envelope size-vingt" aria-hidden="true"></i>
                                 e-mail</div>
+                                <div id="bloc-mail">platon.jonathan@gmail.com<i class="fa fa-times i-close" onclick="hide()" type="button" aria-hidden="true"></i>
+                                </div>
                             </div>
                             <div class="bloc">
                                 <h3>Présentation</h3>
@@ -57,7 +59,7 @@
                             </div>
                             <div class="bloc">
                                 <h3>Mes Liens</h3>
-                                <div class="widget-element">
+                                <div class="widget-element soc-link" onclick="parent.location='https://fr.linkedin.com/in/jonathan-platon-309248122'">
                                     <i class="fa fa-linkedin size-vingt" aria-hidden="true"></i>
                                 Linkedin</div>
                             </div>
@@ -217,19 +219,6 @@
                                                 </span>
                                             </div>
                                         </li>
-                                        <li class="text-content li-marg marg-bot">
-                                            <div class="list-skill">
-                                                <span>xHTML
-                                                    <div class="level">
-                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                    </div>
-                                                </span>
-                                            </div>
-                                        </li>
                                         <li class="text-content li-marg marg-bot"><div class="list-skill">
                                                 <span>XML
                                                     <div class="level">
@@ -313,19 +302,6 @@
                                         </li>
                                         <li class="text-content li-marg marg-bot">
                                             <div class="list-skill">
-                                                <span>Intelligence émotionnelle
-                                                    <div class="level">
-                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                    </div>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li class="text-content li-marg marg-bot">
-                                            <div class="list-skill">
                                                 <span>Esprit d'équipe
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
@@ -401,6 +377,7 @@
             <script src="https://use.fontawesome.com/50d70c63af.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
             <script src="parallax/parallax.js"></script>
+            <script type="text/javascript" src="script.js"></script>
         </body>
 
     </html>         
