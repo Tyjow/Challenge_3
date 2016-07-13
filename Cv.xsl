@@ -29,11 +29,11 @@
                 <section class="nav-link">
                     <ul class="vertical-list">
                         <li class="list"><a href="#">Accueil</a></li>
-                        <li class="list"><a href="#"><xsl:value-of select="Cv/experience/section/p"/></a></li>
-                        <li class="list"><a href="#"><xsl:value-of select="Cv/formation/section/p"/></a></li>
-                        <li class="list"><a href="#"><xsl:value-of select="Cv/competence/section/p"/></a></li>
-                        <li class="list"><a href="#"><xsl:value-of select="Cv/divers/section/p"/></a></li>
-                        <li class="list"><a href="#">Contact</a></li>
+                        <li class="list"><a href="#exp"><xsl:value-of select="Cv/experience/section/p"/></a></li>
+                        <li class="list"><a href="#forma"><xsl:value-of select="Cv/formation/section/p"/></a></li>
+                        <li class="list"><a href="#comp"><xsl:value-of select="Cv/competence/section/p"/></a></li>
+                        <li class="list"><a href="#hob"><xsl:value-of select="Cv/divers/section/p"/></a></li>
+                        <li class="list"><a href="#cont">Contact</a></li>
                     </ul>
                 </section>
 
@@ -58,7 +58,7 @@
                                 Je travail également sur la création de mon site web perso, pour y partager mes créations de Musique Assisté par Ordinateur (MAO) ainsi qu'apporter un forum de discussions pour tous les passionnés de musique.</p>
                             </div>
                             <div class="bloc">
-                                <h3>Mes Liens</h3>
+                                <h3 id="cont">Mes Liens</h3>
                                 <div class="widget-element soc-link" onclick="parent.location='https://fr.linkedin.com/in/jonathan-platon-309248122'">
                                     <i class="fa fa-linkedin size-vingt" aria-hidden="true"></i>
                                 Linkedin</div>
@@ -68,7 +68,7 @@
 
                     <section class="main-content">
                         <div class="widget-content">
-                            <h3 class="widget-title">
+                            <h3 class="widget-title" id="forma">
                                 <i class="fa fa-graduation-cap size-vingt" aria-hidden="true"></i><xsl:value-of select="Cv/formation/section/p"/>
                             </h3>
                             <div class="inner-widget-content">
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                         <div class="widget-content">
-                            <h3 class="widget-title">
+                            <h3 class="widget-title" id="exp">
                                 <i class="fa fa-briefcase size-vingt" aria-hidden="true"></i>
                                 <xsl:value-of select="Cv/experience/section/p"/>
                             </h3>
@@ -146,7 +146,7 @@
                     </section>
                     <section class="right-content">
                         <div class="widget-content">
-                            <h3 class="widget-title">
+                            <h3 class="widget-title" id="comp">
                                 <i class="fa fa-clipboard size-vingt" aria-hidden="true"></i>
                                 <xsl:value-of select="Cv/competence/section/p"/>
                             </h3>
@@ -318,7 +318,7 @@
                             </div>
                         </div>
                         <div class="widget-content">
-                            <h3 class="widget-title">
+                            <h3 class="widget-title" id="hob">
                                 <i class="fa fa-paper-plane size-vingt" aria-hidden="true"></i>
                                 <xsl:value-of select="Cv/divers/section/p"/>
                             </h3>

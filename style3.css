@@ -19,6 +19,28 @@ body {
 	margin: auto;
 }
 
+@media print {
+	.nav-link {
+		display: none;
+	}
+
+	#mail-link {
+		display: none;
+	}
+
+	/*#bloc-mail {
+		position: absolute;
+		top: 520px;
+		left: 181px;
+		color: #515253;
+		font-size: 14px;
+		background-color: #dededf;
+		font-weight: 300;
+		padding: 12px 10px 12px 10px;
+		visibility: visible;
+	}*/
+}
+
 header {
 	padding: 20px 0;
 	background-color: #302e2c;
@@ -48,7 +70,7 @@ header {
 }
 
 .nav-link {
-	background-color: #50a3d9;
+	background-color: #47d147;
 	padding: 5px 0;
 	color: #fff;
 	margin-bottom: 35px;
@@ -74,7 +96,7 @@ header {
 }
 
 .list a:hover {
-	border-bottom: 5px solid #236fa0;
+	border-bottom: 5px solid #29a329;
 }
 
 .content {
@@ -108,7 +130,7 @@ header {
 }
 
 h3 {
-	color: #50a3d9;
+	color: #47d147;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -130,7 +152,7 @@ h3 {
 }
 
 #mail-link:hover {
-	background-color: #50a3d9;
+	background-color: #47d147;
 	color: #fff;
 	cursor: pointer;
 }
@@ -151,7 +173,7 @@ h3 {
 }
 
 .i-close {
-	background-color: #FF8904;
+	background-color: #800080;
 	color: #fff;
 	padding: 3px 3px 3px 3px;
 	border-radius: 2px;
@@ -160,7 +182,7 @@ h3 {
 }
 
 .soc-link:hover {
-	background-color: #50a3d9;
+	background-color: #47d147;
 	color: #fff;
 	cursor: pointer;
 }
@@ -275,7 +297,7 @@ h5 {
 	right: 0;
 	top: 0;
 	font-size: 14px !important;
-	color: #FF8904;
+	color: #800080;
 }
 
 .star-pad {
