@@ -18,6 +18,7 @@
 
 
         <body>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/codeline.jpg">
             <div class="container">
                 <header>
                     <div class="nom"><xsl:value-of select="Cv/Personne/section/identite/prenom"/></div>
@@ -345,11 +346,61 @@
                                 <i class="fa fa-paper-plane size-vingt" aria-hidden="true"></i>
                                 <xsl:value-of select="Cv/divers/section/p"/>
                             </h3>
+                            <div class="inner-widget-content">
+                                <div class="mid-content">
+                                    <h4 class="more-bot">Musique</h4>
+                                    <ul class="remove">
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Composition de musique assisté par ordinateur (MAO)</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mid-content">
+                                    <h4 class="more-bot">Cinéma</h4>
+                                    <ul class="remove">
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Science Fiction, Action</span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Film d'animation japonais ainsi que les animés</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mid-content">
+                                    <h4 class="more-bot">Lectures</h4>
+                                    <ul class="remove">
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Univers des mangas</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mid-content">
+                                    <h4 class="more-bot">Jeux Vidéos</h4>
+                                    <ul class="remove">
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Univers des jeux vidéos</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </section>
             </div>
+        </div>
             <script src="https://use.fontawesome.com/50d70c63af.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+            <script src="parallax/parallax.js"></script>
         </body>
 
     </html>         
