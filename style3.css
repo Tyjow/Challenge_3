@@ -210,7 +210,7 @@ h5 {
 
 
 .right-content {
-	width: 250px;
+	width: 270px;
 }
 
 .remove {
@@ -222,16 +222,21 @@ h5 {
 	margin-bottom: 0;
 	margin-right: 0;
 	margin-top: 0;
+	position: relative;
 }
 
 .more-bot {
 	padding-bottom: 10px;
 }
 
+.list-skill {
+	padding: 0 70px 0 0;
+}
+
 .level {
 	position: absolute;
-	right: 330px;
-	top: 304px;
+	right: 0;
+	top: 0;
 	font-size: 14px !important;
 	color: #FF8904;
 }

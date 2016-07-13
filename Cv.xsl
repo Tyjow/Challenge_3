@@ -151,26 +151,200 @@
                                 <div class="mid-content">
                                     <h4 class="more-bot">Langages Web</h4>
                                     <ul class="remove">
-                                        <li class="text-content li-marg marg-bot">HTML5
-                                            <div class="level">
-                                                <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
-                                                <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>HTML5
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
                                             </div>
                                         </li>
-                                        <li class="text-content li-marg marg-bot">CSS3</li>
-                                        <li class="text-content li-marg marg-bot">PHP</li>
-                                        <li class="text-content li-marg marg-bot">Javascript</li>
-                                        <li class="text-content li-marg marg-bot">Bootstrap</li>
-                                        <li class="text-content li-marg marg-bot">xHTML</li>
-                                        <li class="text-content li-marg marg-bot">XML</li>
-                                        <li class="text-content li-marg marg-bot">XSLT</li>
-                                        <li class="text-content li-marg marg-bot">SQL</li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>CSS3
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>PHP
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Javascript
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Bootstrap
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>xHTML
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot"><div class="list-skill">
+                                                <span>XML
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div></li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>XSLT
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>SQL
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mid-content">
+                                    <h4 class="more-bot">Savoir être</h4>
+                                    <ul class="remove">
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Autodidacte
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Polyvalent
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Capacité d'adaptation
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Intelligence émotionnelle
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Esprit d'équipe
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
+                        </div>
+                        <div class="widget-content">
+                            <h3 class="widget-title">
+                                <i class="fa fa-paper-plane size-vingt" aria-hidden="true"></i>
+                                <xsl:value-of select="Cv/divers/section/p"/>
+                            </h3>
                         </div>
                     </section>
                 </section>
