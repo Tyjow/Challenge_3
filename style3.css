@@ -159,13 +159,13 @@ h3 {
 
 #bloc-mail {
 	position: absolute;
-	top: 520px;
+	top: 525px;
 	left: -300px;
 	color: #515253;
 	font-size: 14px;
 	background-color: #dededf;
 	font-weight: 300;
-	padding: 12px 10px 12px 10px;
+	padding: 12px 6px 12px 7px;
 	transition: all 0.50s;
 	visibility: hidden;
 	opacity: 0;

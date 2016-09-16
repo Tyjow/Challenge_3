@@ -1,5 +1,5 @@
 function show() {
-	document.getElementById('bloc-mail').style.left = '181px';
+	document.getElementById('bloc-mail').style.left = '295px';
 	document.getElementById('bloc-mail').style.opacity = 1;
 	document.getElementById('bloc-mail').style.visibility = 'visible';
 }
