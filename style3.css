@@ -195,6 +195,9 @@ h3 {
 	padding: 10px 10px 10px 10px;
 }
 
+.bis-text {
+	padding: 0 10px 10px 10px !important;
+}
 /**** Mid content ****/
 
 .main-content {

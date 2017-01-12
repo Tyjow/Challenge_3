@@ -18,7 +18,7 @@
 
 
         <body>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/codeline.jpg">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/codeline4.jpg">
             <div class="container">
                 <header>
                     <div class="nom"><xsl:value-of select="Cv/Personne/section/identite/prenom"/></div>
@@ -41,7 +41,12 @@
                     <section class="left-content">
                         <div class="info">
                             <div class="photo">
-                                <img src="img/moi.jpg"/>
+                                <img src="img/moicv.png"/>
+                            </div>
+                            <div class="bloc">
+                            	<h3>Info</h3>
+                            	<p class="infos-text"><i class="fa fa-caret-right" aria-hidden="true"></i> 29 ans</p>
+                            	<p class="infos-text bis-text"><i class="fa fa-caret-right" aria-hidden="true"></i> Rennes</p>
                             </div>
                             <div class="bloc">
                                 <h3>Contact</h3>
@@ -53,7 +58,7 @@
                             </div>
                             <div class="bloc">
                                 <h3>Présentation</h3>
-                                <p class="infos-text">Actuellement apprenant développeur web au sein de la Code Académie avec la Fondation Agir Contre l'Exclusion, je suis en formation de multiples technologies du web concernant les langages suivant : HTML / XML HTML5 / CSS CSS3, PHP, JavaScript, SQL.<br></br>
+                                <p class="infos-text">Actuellement apprenant développeur web au sein de la Code Académie, je suis en formation de multiples technologies du web concernant les langages suivant : HTML5, CSS3, PHP, JavaScript, Angular JS, Node JS, Git, MySQL.<br></br>
                                 <br></br>
                                 Je travail également sur la création de mon site web perso, pour y partager mes créations de Musique Assisté par Ordinateur (MAO) ainsi qu'apporter un forum de discussions pour tous les passionnés de musique.</p>
                             </div>
@@ -73,10 +78,11 @@
                             </h3>
                             <div class="inner-widget-content">
                                 <div class="mid-content">
-                                    <h4><xsl:value-of select="Cv/Personne/section/p"/> / Mobile Junior</h4>
+                                    <h4><xsl:value-of select="Cv/Personne/section/p"/> / Mobile</h4>
                                     <h5><xsl:value-of select="Cv/formation/organisme"/><xsl:value-of select="Cv/formation/lieu"/><br></br>Depuis<xsl:value-of select="Cv/formation/date"/>
                                     </h5>
-                                    <p class="text-content">Formation en autodidacte sur les langages du Web, comme le HTML5,  CSS3, PHP, Javascript, bootstrap, XHTML, XML...</p>
+                                    <p class="text-content">Formation en autodidacte sur les langages du Web, comme le HTML5,  CSS3, PHP, Javascript, Angular JS, Node JS, Git, XHTML, XML...</p>
+                                    <p class="text-content">Titre Développeur Logiciel niveau III</p>
                                 </div>
                                 <div class="mid-content">
                                     <h4><xsl:value-of select="Cv/formation/intitule[2]"/></h4>
@@ -160,9 +166,9 @@
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
                                                 </span>
                                             </div>
@@ -173,9 +179,9 @@
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
                                                 </span>
                                             </div>
@@ -185,8 +191,8 @@
                                                 <span>PHP
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
@@ -199,8 +205,8 @@
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
                                                 </span>
@@ -208,7 +214,20 @@
                                         </li>
                                         <li class="text-content li-marg marg-bot">
                                             <div class="list-skill">
-                                                <span>Bootstrap
+                                                <span>Angular JS
+                                                    <div class="level">
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="text-content li-marg marg-bot">
+                                            <div class="list-skill">
+                                                <span>Node JS
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
@@ -224,7 +243,7 @@
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
@@ -232,12 +251,12 @@
                                             </div></li>
                                         <li class="text-content li-marg marg-bot">
                                             <div class="list-skill">
-                                                <span>XSLT
+                                                <span>XHTML
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
                                                 </span>
@@ -245,12 +264,12 @@
                                         </li>
                                         <li class="text-content li-marg marg-bot">
                                             <div class="list-skill">
-                                                <span>SQL
+                                                <span>MySQL
                                                     <div class="level">
                                                         <i class="fa fa-star star-pad" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
-                                                        <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star star-pad" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-half-o star-pad" aria-hidden="true"></i>
                                                         <i class="fa fa-star-o star-pad grey-o" aria-hidden="true"></i>
                                                     </div>
                                                 </span>
