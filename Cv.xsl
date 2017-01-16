@@ -82,6 +82,7 @@
                                     <h5><xsl:value-of select="Cv/formation/organisme"/><xsl:value-of select="Cv/formation/lieu"/><br></br>Depuis<xsl:value-of select="Cv/formation/date"/>
                                     </h5>
                                     <p class="text-content">Formation en autodidacte sur les langages du Web, comme le HTML5,  CSS3, PHP, Javascript, Angular JS, Node JS, Git, XHTML, XML...</p>
+                                    <p class="text-content">Mon site web www.jonathan-platon.fr</p>
                                     <p class="text-content">Titre Développeur Logiciel niveau III</p>
                                 </div>
                                 <div class="mid-content">
