@@ -103,14 +103,24 @@
                                     <h4><xsl:value-of select="Cv/experience/section[2]/poste/descriptif"/></h4>
                                     <h5><xsl:value-of select="Cv/experience/section[2]/poste/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste/date"/>
                                     </h5>
-                                    <li class="text-content li-marg">Démarchage de clients pour une société.</li>
+                                    <li class="text-content li-marg">Intégration de maquettes de sites pour de grands clients.</li>
                                     <div class="town">
+                                        <span class="town-target town-marg">CDD</span>
                                         <span class="town-target"><xsl:value-of select="Cv/experience/section[2]/poste/lieu"/>(France)</span>
                                     </div>
                                 </div>
                                 <div class="mid-content">
                                     <h4><xsl:value-of select="Cv/experience/section[2]/poste[2]/descriptif"/></h4>
                                     <h5><xsl:value-of select="Cv/experience/section[2]/poste[2]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[2]/date"/>
+                                    </h5>
+                                    <li class="text-content li-marg">Démarchage de clients pour une société.</li>
+                                    <div class="town">
+                                        <span class="town-target"><xsl:value-of select="Cv/experience/section[2]/poste/lieu"/>(France)</span>
+                                    </div>
+                                </div>
+                                <div class="mid-content">
+                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[3]/descriptif"/></h4>
+                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[3]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[3]/date"/>
                                     </h5>
                                     <li class="text-content li-marg">formation et suivi auprès de tous les employés du restaurant.</li>
                                     <div class="town">
@@ -119,8 +129,8 @@
                                     </div>
                                 </div>
                                 <div class="mid-content">
-                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[3]/descriptif"/></h4>
-                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[3]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[3]/date"/>
+                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[4]/descriptif"/></h4>
+                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[4]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[4]/date"/>
                                     </h5>
                                     <li class="text-content li-marg">Emploi sur plusieurs postes dans plusieurs entreprises en bâtiments et autres.</li>
                                     <div class="town">
@@ -129,8 +139,8 @@
                                     </div>
                                 </div>
                                 <div class="mid-content">
-                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[4]/descriptif"/></h4>
-                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[4]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[4]/date"/>
+                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[5]/descriptif"/></h4>
+                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[5]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[5]/date"/>
                                     </h5>
                                     <li class="text-content li-marg">Agent de propreté du secteur des grandes surfaces puis en hôtellerie qui consiste à améliorer l’état d’hygiène des entreprises.</li>
                                     <div class="town">
@@ -139,8 +149,8 @@
                                     </div>
                                 </div>
                                 <div class="mid-content">
-                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[5]/descriptif"/></h4>
-                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[5]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[5]/date"/>
+                                    <h4><xsl:value-of select="Cv/experience/section[2]/poste[6]/descriptif"/></h4>
+                                    <h5><xsl:value-of select="Cv/experience/section[2]/poste[6]/entreprise"/><br></br><xsl:value-of select="Cv/experience/section[2]/poste[6]/date"/>
                                     </h5>
                                     <li class="text-content li-marg">Mon rôle a été d’assembler des unités centrales de PC, puis d’assurer la maintenance et la réparation de ceux de particuliers.</li>
                                     <div class="town">
