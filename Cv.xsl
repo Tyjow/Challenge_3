@@ -47,6 +47,8 @@
                             	<h3>Info</h3>
                             	<p class="infos-text"><i class="fa fa-caret-right" aria-hidden="true"></i> 29 ans</p>
                             	<p class="infos-text bis-text"><i class="fa fa-caret-right" aria-hidden="true"></i> Rennes</p>
+                                <p class="infos-text bis-text"><i class="fa fa-caret-right" aria-hidden="true"></i> platon.jonathan@gmail.com</p>
+                                <p class="infos-text bis-text"><i class="fa fa-caret-right" aria-hidden="true"></i> 07.68.84.40.24</p>
                             </div>
                             <div class="bloc">
                                 <h3>Contact</h3>
